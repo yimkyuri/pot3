@@ -1,0 +1,562 @@
+<!doctype html>
+<head lang="en-US">
+
+<!-- Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+<meta name="viewport" content="width=device-width" />
+
+
+<!--Shortcut icon-->
+
+
+<title>Yim kyuri - works</title>
+
+<link rel='stylesheet' id='rgs-css'  href='css/rgs.css' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css'  href='css/responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='main-styles-css'  href='css/style.css' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='ie8-css'  href='css/ie8.css' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='dynamic_colors-css'  href='css/colors.css' type='text/css' media='all' />
+<script type='text/javascript' src='js/jquery/jquery.js'></script>
+<script type='text/javascript' src='js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='js/modernizr.js'></script>
+
+</head>
+
+<body class="page page-id-25 page-template page-template-page-portfolio-php noise" data-smooth-scrolling="0">
+
+<div id="header-space"></div>
+
+<div id="header-outer">
+	
+	<header id="top">
+		
+		<div class="container">
+			
+			<div class="row">
+				
+				<div class="col span_3">
+					<a id="logo" href="index.html">
+						<img alt="dot.z media factory" src="img/logo.png" /></a>
+				</div><!--/span_3-->
+				
+				<div class="col span_9 col_last">
+					
+					<a href="#" id="toggle-nav"></a>
+					
+					<nav>
+						<ul class="sf-menu">
+<li id="menu-item-218" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-218"><a href="index.html">About</a></li>
+<li id="menu-item-231" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-25 current_page_item menu-item-231"><a href="works.html">Works</a></li>
+<li id="menu-item-222" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-222"><a href="contact.html">Contact</a></li>
+							<!-- <li id="search-btn"><a href=""></a><span></span></li> -->
+						</ul>
+					</nav>
+					
+				</div><!--/span_9-->
+			
+			</div><!--/row-->
+		
+		</div><!--/container-->
+		
+	</header>
+
+</div><!--/header-outer-->
+<script>
+	jQuery(document).ready(function($){
+	
+	    var $container = $('#portfolio');
+	    
+	    $(window).load(function(){
+	    	// initialize isotope
+			$container.isotope({
+			  itemSelector : '.element',
+			  filter: '*',
+			  masonry: { columnWidth: $container.width() / 3 }
+			});
+		
+	    });
+		
+		// filter items when filter link is clicked
+		$('#portfolio-filters ul li a').click(function(){
+		  var selector = $(this).attr('data-filter');
+		  $container.isotope({ filter: selector });
+		  
+		  //active classes
+		  $('#portfolio-filters ul li a').removeClass('active');
+		  $(this).addClass('active');
+		  
+		  return false;
+		});
+		
+		$('#portfolio-filters > a').click(function(){
+			return false;
+		});
+		
+		$(window).smartresize(function(){
+		  $container.isotope({
+		    masonry: { columnWidth: $container.width() / 3 }
+		  });
+		});
+		
+		
+		
+	});
+</script>
+
+
+<div class="container">
+	
+	<div class="row">
+		
+				
+		<div class="col span_12 section-title">
+			<h1>works<span>저의 작업물입니다.</span></h1>
+			
+			<div id="portfolio-filters">
+				
+				<a href="#" id="sort-portfolio">Sort Portfolio</a>
+				
+				<ul>
+				   <li><a href="#" data-filter="*">All</a></li>
+				   <li><a href="#" data-filter=".graphic">Graphic Design</a></li>
+				   <li><a href="#" data-filter=".web">Web Design</a></li>
+				   <li><a href="#" data-filter=".publish">Publishing</a></li>
+				</ul>
+			
+			</div><!--/portfolio-filters-->
+		</div><!--/span_12-->
+	</div><!--/row-->
+	
+	
+			
+		<div class="container main-content">
+			<div class="row">	
+							</div>
+		</div>
+
+	
+
+	<div id="portfolio" class="row portfolio-items">
+					
+			
+						
+			<div class="col span_4 element promotion web">
+				
+				<div class="work-item">
+					<img width="600" height="403" src="img/works/list14.jpg" class="attachment-portfolio-thumb wp-post-image" alt="thumb" title="" />				
+					<div class="work-info-bg"></div>
+					<div class="work-info">
+						
+						<div class="vert-center">
+							<a href="works_detail14.html">More Details</a>
+						</div><!--/vert-center-->
+						
+					</div>
+				</div><!--work-item-->
+				
+				<div class="work-meta">
+					<h4 class="title">NK펀딩 홈페이지 전체 디자인</h4>
+					March, 2018</div>
+			
+			</div><!--/col-->
+					
+			
+						
+			<div class="col span_4 element promotion web">
+				
+				<div class="work-item">
+					<img width="600" height="403" src="img/works/list15.jpg" class="attachment-portfolio-thumb wp-post-image" alt="thumb" title="" />				
+					<div class="work-info-bg"></div>
+					<div class="work-info">
+						
+						<div class="vert-center">
+							<a href="works_detail15.html">More Details</a>
+						</div><!--/vert-center-->
+						
+					</div>
+				</div><!--work-item-->
+				
+				<div class="work-meta">
+					<h4 class="title">캐시마켓 홈페이지 전체 디자인</h4>
+					July, 2017</div>
+			
+			</div><!--/col-->
+					
+			
+						
+			<div class="col span_4 element promotion graphic">
+				
+				<div class="work-item">
+					<img width="600" height="403" src="img/works/list12.jpg" class="attachment-portfolio-thumb wp-post-image" alt="thumb" title="" />				
+					<div class="work-info-bg"></div>
+					<div class="work-info">
+						
+						<div class="vert-center">
+							<a href="works_detail12.html">More Details</a>
+						</div><!--/vert-center-->
+						
+					</div>
+				</div><!--work-item-->
+				
+				<div class="work-meta">
+					<h4 class="title">SK 엘리베이터 내 LCD 화면 디자인</h4>
+					July, 2018</div>
+			
+			</div><!--/col-->
+					
+			
+						
+			<div class="col span_4 element promotion web">
+				
+				<div class="work-item">
+					<img width="600" height="403" src="img/works/list13.jpg" class="attachment-portfolio-thumb wp-post-image" alt="thumb" title="" />				
+					<div class="work-info-bg"></div>
+					<div class="work-info">
+						
+						<div class="vert-center">
+							<a href="works_detail13.html">More Details</a>
+						</div><!--/vert-center-->
+						
+					</div>
+				</div><!--work-item-->
+				
+				<div class="work-meta">
+					<h4 class="title">카이스트 K-School 사이트 시안</h4>
+					September, 2016</div>
+			
+			</div><!--/col-->
+					
+			
+						
+			<div class="col span_4 element promotion web publish">
+				
+				<div class="work-item">
+					<img width="600" height="403" src="img/works/list06.jpg" class="attachment-portfolio-thumb wp-post-image" alt="thumb" title="" />				
+					<div class="work-info-bg"></div>
+					<div class="work-info">
+						
+						<div class="vert-center">
+							<a href="works_detail06.html">More Details</a>
+						</div><!--/vert-center-->
+						
+					</div>
+				</div><!--work-item-->
+				
+				<div class="work-meta">
+					<h4 class="title">한화그룹 계열사 사이트 유지·보수</h4>
+					April, 2011 ~ </div>
+			
+			</div><!--/col-->
+			
+									
+			
+					
+					
+			
+						
+			<div class="col span_4 element promotion graphic">
+				
+				<div class="work-item">
+					<img width="600" height="403" src="img/works/list09.jpg" class="attachment-portfolio-thumb wp-post-image" alt="thumb" title="" />				
+					<div class="work-info-bg"></div>
+					<div class="work-info">
+						
+						<div class="vert-center">
+							<a href="works_detail09.html">More Details</a>
+						</div><!--/vert-center-->
+						
+					</div>
+				</div><!--work-item-->
+				
+				<div class="work-meta">
+					<h4 class="title">여성라이더 크루 라이딩 포스터</h4>
+					December, 2013 ~ </div>
+			
+			</div><!--/col-->
+			
+			
+			
+
+
+			
+			
+			<div class="col span_4 element promotion publish">
+				
+				<div class="work-item">
+					<img width="600" height="403" src="img/works/list08.jpg" class="attachment-portfolio-thumb wp-post-image" alt="thumb" title="" />				
+					<div class="work-info-bg"></div>
+					<div class="work-info">
+						
+						<div class="vert-center">
+							<a href="works_detail08.html">More Details</a>
+						</div><!--/vert-center-->
+						
+					</div>
+				</div><!--work-item-->
+				
+				<div class="work-meta">
+					<h4 class="title">웹접근성 고도화 작업</h4>
+					March, 2013 ~ </div>
+			
+			</div><!--/col-->
+			
+					
+					
+			
+					
+					
+			
+						
+			<div class="col span_4 element promotion web">
+				
+				<div class="work-item">
+					<img width="600" height="403" src="img/works/list07.jpg" class="attachment-portfolio-thumb wp-post-image" alt="thumb" title="" />				
+					<div class="work-info-bg"></div>
+					<div class="work-info">
+						
+						<div class="vert-center">
+							<a href="works_detail07.html">More Details</a>
+						</div><!--/vert-center-->
+						
+					</div>
+				</div><!--work-item-->
+				
+				<div class="work-meta">
+					<h4 class="title">웹에이전시 경험</h4>
+					August, 2010 ~ </div>
+			
+			</div><!--/col-->
+			
+								
+			
+						
+					
+			
+					
+			
+						
+			<div class="col span_4 element publish">
+				
+				<div class="work-item">
+					<img width="600" height="403" src="img/works/list11.jpg" class="attachment-portfolio-thumb wp-post-image" alt="thumb" title="" />
+					<div class="work-info-bg"></div>
+					<div class="work-info">
+						
+						<div class="vert-center">
+							<a href="works_detail11.html">More Details</a>
+						</div><!--/vert-center-->
+						
+					</div>
+				</div><!--work-item-->
+				
+				<div class="work-meta">
+					<h4 class="title">일동제약 i-map 사이트 퍼블리싱</h4>
+					June, 2012</div>
+			
+			</div><!--/col-->
+			
+								
+			
+						
+					
+			
+					
+			
+						
+			<div class="col span_4 element web publish">
+				
+				<div class="work-item">
+					<img width="600" height="403" src="img/works/list10.jpg" class="attachment-portfolio-thumb wp-post-image" alt="thumb" title="" />
+					<div class="work-info-bg"></div>
+					<div class="work-info">
+						
+						<div class="vert-center">
+							<a href="works_detail10.html">More Details</a>
+						</div><!--/vert-center-->
+						
+					</div>
+				</div><!--work-item-->
+				
+				<div class="work-meta">
+					<h4 class="title">차타임 홈페이지</h4>
+					July, 2012</div>
+			
+			</div><!--/col-->
+			
+								
+			
+						
+					
+			
+					
+			
+						
+			<div class="col span_4 element web ">
+				
+				<div class="work-item">
+					<img width="600" height="403" src="img/works/list05.jpg" class="attachment-portfolio-thumb wp-post-image" alt="thumb" title="" />
+					<div class="work-info-bg"></div>
+					<div class="work-info">
+						
+						<div class="vert-center">
+							<a href="works_detail05.html">More Details</a>
+						</div><!--/vert-center-->
+						
+					</div>
+				</div><!--work-item-->
+				
+				<div class="work-meta">
+					<h4 class="title">스타일네트워크 홈페이지</h4>
+					October, 2010</div>
+			
+			</div><!--/col-->
+			
+			
+					
+			
+					
+						
+						
+			<div class="col span_4 element web">
+				
+				<div class="work-item">
+					<img width="600" height="403" src="img/works/list03.jpg" class="attachment-portfolio-thumb wp-post-image" alt="thumb" title="" />						
+					<div class="work-info-bg"></div>
+					<div class="work-info">
+						
+						<div class="vert-center">
+							<a href="works_detail03.html">More Details</a>
+						</div><!--/vert-center-->
+						
+					</div>
+				</div><!--work-item-->
+				
+				<div class="work-meta">
+					<h4 class="title">KT Olleh 와이브로 가입센터</h4>
+					May, 2009</div>
+			
+			</div><!--/col-->
+					
+					
+			
+					
+					
+			
+						
+			<div class="col span_4 element graphic ">
+				
+				<div class="work-item">
+					<img width="600" height="403" src="img/works/list01.jpg" class="attachment-portfolio-thumb wp-post-image" alt="thumb" title="" />					
+					<div class="work-info-bg"></div>
+					<div class="work-info">
+						
+						<div class="vert-center">
+							<a href="works_detail01.html">More Details</a>
+						</div><!--/vert-center-->
+						
+					</div>
+				</div><!--work-item-->
+				
+				<div class="work-meta">
+					<h4 class="title">비사응원단 로고 제작</h4>
+					july, 2007</div>
+			
+			</div><!--/col-->
+			
+			
+					
+					
+			
+						
+			
+			<div class="col span_4 element graphic">
+				
+				<div class="work-item">
+					<img width="600" height="403" src="img/works/list02.jpg" class="attachment-portfolio-thumb wp-post-image" alt="thumb" title="" />					
+					<div class="work-info-bg"></div>
+					<div class="work-info">
+						
+						<div class="vert-center">
+							<a href="works_detail02.html">More Details</a>
+						</div><!--/vert-center-->
+						
+					</div>
+				</div><!--work-item-->
+				
+				<div class="work-meta">
+					<h4 class="title">비사응원단 행사 팜플렛 제작</h4>
+					September, 2010</div>
+			
+			</div><!--/col-->
+			
+					
+			
+					
+			
+						
+			<div class="col span_4 element graphic">
+				
+				<div class="work-item">
+					<img width="600" height="403" src="img/works/list04.jpg" class="attachment-portfolio-thumb wp-post-image" alt="thumb" title="" />					
+					<div class="work-info-bg"></div>
+					<div class="work-info">
+						
+						<div class="vert-center">
+							<a href="works_detail04.html">More Details</a>
+						</div><!--/vert-center-->
+						
+					</div>
+				</div><!--work-item-->
+				
+				<div class="work-meta">
+					<h4 class="title">비사응원단 행사 포스터 제작</h4>
+					September, 2010</div>
+			
+			</div><!--/col-->
+			
+					
+			
+						
+			
+			</div><!--/portfolio-->
+
+	
+		
+	
+</div><!--/container-->
+
+
+<div id="footer-outer">		
+	<div class="row" id="copyright">
+		<div class="container">
+			<div class="col span_6">
+				<p>&copy; 2018 Yimkyuri</p>
+			</div><!--/span_6-->
+						
+		</div><!--/container-->	
+	</div><!--/row-->
+</div><!--/footer-outer-->
+
+ 
+
+<script type='text/javascript' src='js/jquery.form.min.js'></script>
+<script type='text/javascript' src='js/scripts.js'></script>
+<script type='text/javascript' src='js/superfish.js'></script>
+<script type='text/javascript' src='js/easing.js'></script>
+<script type='text/javascript' src='js/respond.js'></script>
+<script type='text/javascript' src='js/nicescroll.js'></script>
+<script type='text/javascript' src='js/prettyPhoto.js'></script>
+<script type='text/javascript' src='js/flexslider.min.js'></script>
+<script type='text/javascript' src='js/isotope.min.js'></script>
+<script type='text/javascript' src='js/carouFredSel.min.js'></script>
+<script type='text/javascript' src='js/jplayer.min.js'></script>
+<script type='text/javascript' src='js/orbit.js'></script>
+<script type='text/javascript' src='js/init.js'></script>
+	
+
+</body>
+</html>
