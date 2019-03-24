@@ -2972,6 +2972,7 @@ article.result .title a:hover {
 #post-area {
 	padding-right: 20px;
 	margin-top: 4px;
+	text-align: center;
 }
 
 #post-area > article:last-child .content-inner {
